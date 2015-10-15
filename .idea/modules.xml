@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CryptoHelper.iml" filepath="$PROJECT_DIR$/CryptoHelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/library.iml" filepath="$PROJECT_DIR$/app/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CryptoHelper.iml" filepath="$PROJECT_DIR$/CryptoHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/cryptohelper.iml" filepath="$PROJECT_DIR$/app/cryptohelper.iml" />
     </modules>
   </component>
 </project>
