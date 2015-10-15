@@ -2,6 +2,14 @@
 
 Minimal API for encrypting and decrypting strings.
 
+## Gradle
+
+This library can be retrieved from [jCenter](https://bintray.com/bintray/jcenter).
+
+```groovy
+compile 'fi.aalto.legroup:cryptohelper:0.1.0'
+```
+
 ## Format
 
 * Convert string to UTF-8 bytes
