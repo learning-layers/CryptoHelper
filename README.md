@@ -10,6 +10,19 @@ This library can be retrieved from [jCenter](https://bintray.com/bintray/jcenter
 compile 'fi.aalto.legroup:cryptohelper:0.1.0'
 ```
 
+## Usage
+
+```java
+// 128-bit base64 encoded key
+String secretKey = "hx/Tbx4Q8fTEc8sS65nxWg==";
+
+String encrypted = CryptoHelper.encrypt("Hello world!", secretKey);
+String decrypted = CryptoHelper.decrypt(encrypted, secretKey);
+
+// encrypted: Iyqlj0gj5GseF5INX7e7xRpTcTNBacOZEFNMh7CyfGEkbjh5LinP9yfZTPpZOWTF
+// decrypted: Hello world!
+```
+
 ## Format
 
 * Convert string to UTF-8 bytes
